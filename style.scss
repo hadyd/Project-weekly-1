@@ -1,0 +1,40 @@
+body {
+	font-family: 'Quicksand',sans-serif !important;
+}
+
+$primary-color: #fed330;
+
+nav {
+	li {
+		display: inline;
+		list-style-type: none;
+	}
+	a {
+		font-size: 18px;
+		text-decoration: none;
+		color: white;
+		&:hover {
+			font-weight: bold;
+		}
+	}
+}
+.btn {
+	background-color: $primary-color;
+	font-weight: bold;
+	color: white;
+}
+.page-link {
+	background-color: $primary-color;
+	font-weight: bold;
+	color: white;
+}
+.footer-copyright {
+	a {
+		font-weight: bold;
+		color: white;
+		text-decoration: none;
+		&:hover {
+			font-weight: bold;
+		}
+	}
+}

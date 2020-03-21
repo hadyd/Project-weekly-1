@@ -1,6 +1,6 @@
-@import "https://fonts.googleapis.com/css?family=Quicksand&display=swap";
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 body {
-  font-family: 'Quicksand',sans-serif !important;
+  font-family: 'Quicksand' !important;
 }
 
 nav li {
@@ -38,5 +38,9 @@ nav a:hover {
 
 .footer-copyright a:hover {
   font-weight: bold;
+}
+
+.checked {
+  color: orange;
 }
 /*# sourceMappingURL=style.css.map */

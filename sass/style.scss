@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 body {
-	font-family: 'Quicksand',sans-serif !important;
+	font-family: 'Quicksand' !important;
+
 }
 
 $primary-color: #fed330;
@@ -38,3 +40,7 @@ nav {
 		}
 	}
 }
+
+.checked {
+	color: orange;
+  }

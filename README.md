@@ -29,7 +29,7 @@ Website E-Commerce yang menyediakan berbagai kategori produk.
   
 - Zaki
 1. Page Cara Belanja
-2. Page Login
+2. Page Contact
 3. Page About
 
 ## Komponen

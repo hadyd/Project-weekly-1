@@ -18,7 +18,13 @@ nav a:hover {
   font-weight: bold;
 }
 
-.btn, .page-link {
+.btn {
+  background-color: #fed330;
+  font-weight: bold;
+  color: white;
+}
+
+.page-link {
   background-color: #fed330;
   font-weight: bold;
   color: white;
@@ -38,11 +44,6 @@ nav a:hover {
   color: orange;
 }
 
-#login {
-  font-weight: bolder;
-  color: white;
-}
-
 #login .container #login-row #login-column #login-box {
   margin-top: 100px;
   max-width: 600px;
@@ -50,12 +51,14 @@ nav a:hover {
   border: 1px solid #fed330;
   background-color: #fed330;
 }
-
 #login .container #login-row #login-column #login-box #login-form {
   padding: 20px;
 }
-
 #login .container #login-row #login-column #login-box #login-form #register-link {
   margin-top: -85px;
 }
-/*# sourceMappingURL=style.css.map */
+
+#login {
+  font-weight: bolder;
+  color: white;
+}

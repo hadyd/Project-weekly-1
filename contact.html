@@ -3,51 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Shop</title>
     <link type="text/css" rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #fed330">
             <a class="navbar-brand text-white" href="homepage.html">Simple Shop</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
             </button>
-            
+          
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Electronic</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Fashion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Cara Belanja</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="electronic.html">Electronic <i class="fas fa-mobile-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="fashion.html">Fashion <i class="fas fa-tshirt"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="music.html">Music <i class="fas fa-headphones-alt"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="how_to.html">Cara Belanja <i class="fas fa-shopping-basket"></i></a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Register</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="login.html">Login <i class="fas fa-sign-in-alt"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="register.html">Register <i class="fas fa-file-signature"></i></a>
+                    </li>
                 </ul>
-            
+
                 <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
         </nav>
-    </header>
 
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="image/Header.jpg" class="d-block w-100" alt="Header Simple Shop">
+              </div>
+            </div>
+        </div>
+    </header>
+    <!-- Content -->
     <main>
         <div class="content" style="display: flex; flex-direction: column; align-items: center; margin: 266px 0px 334px 0px;" >
             <h1 style="font-size: 30px; margin-bottom: 43px;">CONTACT ME</h1>
@@ -61,14 +70,13 @@
 
     <br>
     <!-- Footer -->
-    <footer class="page-footer font-small blue" style="background-color: #f39c12;">
+    <footer class="page-footer font-small blue" style="background-color: #dbb320;">
         <div class="footer-copyright text-center py-3 text-white">
-            <a href="about.html">About</a> <a href="contact.html">Contact</a>
-            <br>&#169; 2020 | Simple Shop
-            <br>Impact Byte Bootcamp Scholarship
-            <br>Cute Cordelia
-        </div>
-
+        <a href="about.html">About <i class="fas fa-info-circle"></i></a> <a href="contact.html">Contact <i class="far fa-envelope"></i></a>
+          <br>&#169; 2020 | Simple Shop
+          <br>Impact Byte Bootcamp Scholarship
+          <br>Cute Cordelia
+        </div>  
     </footer>
 
 </body>

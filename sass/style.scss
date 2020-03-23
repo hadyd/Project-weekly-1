@@ -1,46 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
 body {
-	font-family: 'Quicksand' !important;
-
+  font-family: 'Quicksand' !important;
 }
-
-$primary-color: #fed330;
 
 nav {
-	li {
-		display: inline;
-		list-style-type: none;
-	}
-	a {
-		font-size: 18px;
-		text-decoration: none;
-		color: white;
-		&:hover {
-			font-weight: bold;
-		}
-	}
+  li {
+    display: inline;
+    list-style-type: none;
+  }
+
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
 }
-.btn {
-	background-color: $primary-color;
-	font-weight: bold;
-	color: white;
+
+.btn, .page-link {
+  background-color: #fed330;
+  font-weight: bold;
+  color: white;
 }
-.page-link {
-	background-color: $primary-color;
-	font-weight: bold;
-	color: white;
-}
-.footer-copyright {
-	a {
-		font-weight: bold;
-		color: white;
-		text-decoration: none;
-		&:hover {
-			font-weight: bold;
-		}
-	}
+
+.footer-copyright a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    font-weight: bold;
+  }
 }
 
 .checked {
-	color: orange;
+  color: orange;
+}
+
+#login {
+  .container #login-row #login-column #login-box {
+    margin-top: 100px;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #fed330;
+    background-color: #fed330;
+
+    #login-form {
+      padding: 20px;
+
+      #register-link {
+        margin-top: -85px;
+      }
+    }
   }
+
+  font-weight: bolder;
+  color: white;
+}
